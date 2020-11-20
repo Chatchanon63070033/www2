@@ -41,10 +41,10 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
            $Link = $Result['link'];
 ?>
            <tr class="bg-light">
-             <td><?php echo $id;?></div></td>
-             <td><?php echo $name;?></div></td>
+             <td><?php echo $UserID;?></div></td>
+             <td><?php echo $Name;?></div></td>
              <td><?php echo $Comment;?></td>
-             <td><?php echo $link;?></td>
+             <td><?php echo $Link;?></td>
              <td><a href="edit.php?Getid=<?php echo $UserID ?>"><button type="button" class="btn btn-primary">Edit</button></a></td>
              <td><a href="delete.php?Getid=<?php echo $UserID ?>"><button type="button" class="btn btn-danger">Delete</button></a></td>
            </tr>
