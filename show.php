@@ -30,7 +30,7 @@ while($Result = mysqli_fetch_array($res))
 <?php
 }
 ?>
-</table>
+    </table><a href=“form.php”><button type="button" class="btn btn-success">add</button></a>
 <?php
 mysqli_close($conn);
 ?>
