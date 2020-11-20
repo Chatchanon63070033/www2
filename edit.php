@@ -27,7 +27,7 @@ $UserID = $_GET['GetID'];
           </div>
           <div class="card-body">
            
-             <form action="update.php?ID=<?php echo $Userid ?>" method="post">
+             <form action="update.php?ID=<?php echo $id ?>" method="post">
                 <input type="text" class="form-control mb-2" placeholder=" name " name="name">
                 <input type="text" class="form-control mb-2" placeholder=" Comment " name="comment">
                 <input type="text" class="form-control mb-2" placeholder=" link " name="link">
