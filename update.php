@@ -20,7 +20,7 @@ if(isset($_POST['update']))
 
         if($result)
         {
-            header("location:index.php");
+            header("location:show.php");
         }
         else
         {
